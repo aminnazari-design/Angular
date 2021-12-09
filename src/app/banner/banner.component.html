@@ -1,0 +1,91 @@
+<div class="banner d-flex flex-column justify-content-evenly">
+  <div class="p-1">
+    <h3>رزرو هتل و خرید بلیط هواپیما و اتوبوس</h3>
+    <h5>
+      رزرو هتل، رزرو هتل آپارتمان و خرید اینترنتی بلیط هواپیما و بلیط اتوبوس با
+      بهترین قیمت در همه شهرهای ایران
+    </h5>
+
+    <div class="container col-md-3 d-flex flex-row justify-content-evenly">
+      <a href="#"
+        ><div
+          id="box"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <i class="fas fa-hotel"></i>
+          <p>هتل</p>
+        </div></a
+      >
+      <a href="#">
+        <div
+          id="box"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <i class="fas fa-plane"></i>
+          <p>پرواز</p>
+        </div>
+      </a>
+
+      <a href="#">
+        <div
+          id="box"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <i class="fas fa-bus"></i>
+          <p>اتوبوس</p>
+        </div>
+      </a>
+
+      <a href="#">
+        <div
+          id="box"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <i class="fas fa-home"></i>
+          <p>ویلا</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="p-2 d-flex align-self-center col-md-8">
+    <form
+      class="search row align-self-center col-md-12 justify-content-center"
+      (ngSubmit)="onformsubmit()"
+    >
+      <div class="col-md-4">
+        <input
+          class="w-100 form-control"
+          id="first"
+          type="text"
+          placeholder="شهر مورد نظر را انتخاب کنید"
+          name="city"
+          [(ngModel)]="city"
+        />
+      </div>
+
+      <div class="col-md-2">
+        <input
+          type="text"
+          class="w-100 form-control"
+          placeholder="انتخاب تاریخ"
+          name="timein"
+          [(ngModel)]="timein"
+        />
+      </div>
+
+      <div class="col-md-3">
+        <input
+          id="third"
+          type="text"
+          class="w-100 form-control"
+          placeholder="انتخاب تاریخ"
+          name="timeout"
+          [(ngModel)]="timeout"
+        />
+      </div>
+      <div class="col-md-3">
+        <button type="submit">جست و جو</button>
+      </div>
+    </form>
+  </div>
+</div>

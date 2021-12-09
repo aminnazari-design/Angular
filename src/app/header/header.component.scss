@@ -1,0 +1,39 @@
+.row {
+    height: 4rem;
+   border: 1px solid #a79898;
+  a {
+    text-decoration: none;
+    color: #a3a3a3;
+    transition: color cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+  .a-1 {
+    color: #ff4232;
+    border: 1px solid #ff4232;
+    padding: 0.5rem 0.5rem;
+    border-radius: .5rem;
+  }
+  .header2 {
+   margin-left: 3rem;
+  } 
+  #a-2 {
+    color: black;
+  }
+  #a-3 {
+    color: white;
+    background-color: black;
+    padding: .2rem 1.2rem;
+    border-radius: .5rem;
+  }
+  i {
+    color: #a3a3a3;
+  }
+  a:hover {
+    color: rgb(212, 53, 53);
+    }
+    li {
+     list-style-type: none;
+    }
+    nav,ul {
+    width: 100%;
+    }
+}
